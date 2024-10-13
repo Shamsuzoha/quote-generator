@@ -3,6 +3,7 @@ const quoteText = document.getElementsByClassName('quote-text')[0];
 const loader = document.getElementById('loader');
 const quoteContainer = document.getElementById('quote-container');
 // Show Loader
+loader.hidden = true;
 function showLoader() {
     loader.hidden = false;
     quoteContainer.hidden = true;
