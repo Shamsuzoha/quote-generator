@@ -46,12 +46,6 @@ $.ajax({
     }
 });
 }
-
-
-// On Load
-getQuotes();
-
-
 // Event Listeners
 newQuotes.addEventListener('click', getQuotes);
 
